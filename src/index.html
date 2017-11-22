@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>repo watcher</title>
+</head>
+<body>
+  <div id="message" class="hidden"></div>
+  <h2>Repo watcher</h2>
+
+  <form method="post">
+    Github user <input type="text" name="github_user" value="chambs"><br>
+    Github password <input type="password" name="github_password"><br>
+    Two factor auth token <input type="text" name="github_token"><br>
+    Service path <input type="text" name="github_path" value="/applications/grants"><br>
+    <button name="btn_send">Send</button>
+  </form>
+  <textarea name="log" cols="75" rows="40"></textarea>
+
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
