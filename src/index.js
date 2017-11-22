@@ -109,3 +109,8 @@ qs('button[name="btn_send"]').addEventListener('click',
 window.onbeforeunload = function () {
   saveFields();
 };
+
+
+qs('#login').addEventListener('click', function (ev) {
+  // ev.preventDefault();
+});

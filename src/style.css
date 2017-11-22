@@ -23,6 +23,6 @@ body {
 }
 
 textarea[name="log"] {
-  font-size: 10px;
+  /*font-size: 10px;*/
   width: 100%;
 }
